@@ -1,0 +1,99 @@
+.tasks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  list-style: none;
+
+  gap: 10px;
+
+  width: 700px;
+  margin: auto;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.eachTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 0 16px;
+  gap: 10px;
+  list-style: none;
+
+  width: 700px;
+
+  /* Gray 500 */
+
+  background: #262626;
+  /* Gray 400 */
+
+  border: 1px solid #333333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.eachTask button {
+  background: #262626;
+  border: 0;
+  cursor: pointer;
+}
+
+.eachTask button:hover {
+  color: #f75a68;
+}
+
+.eachTask input {
+  width: 24px;
+  height: 24px;
+  clip-path: circle(46% at 50% 50%); /* Set the clip path of circle*/
+  cursor: pointer;
+  /* Blue */
+
+  background: #4ea8de;
+
+  opacity: 0.9;
+
+  /* Inside auto layout */
+}
+
+.eachTask p {
+  width: 632px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+
+  line-height: 140%;
+  /* or 20px */
+
+  /* Gray 100 */
+
+  color: #f2f2f2;
+
+  /* Inside auto layout */
+}
+
+.eachTask input[type="checkbox"]:checked + p {
+  color: #808080;
+  text-decoration: line-through;
+}
