@@ -16,5 +16,8 @@
 
  <img align="center" alt="Celi-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" > TypeScript
           
-### Preview logo menos
+### Preview
+
+
+![chrome_OqOEfFHaDb](https://user-images.githubusercontent.com/87941765/211787043-8c6d47e7-3c6c-45c1-bf3b-1da61d0a7107.gif)
 
