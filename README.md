@@ -2,7 +2,7 @@
 
 ## O Projeto consiste em uma tela para adicionar suas atividades diárias. 
 
-### Nele podemos marcar uma tarefa como concluida e deltar tarefas.
+### Nele podemos marcar uma tarefa como concluida e deletar tarefas.
 
 ## 🛠 Tecnologias
 
